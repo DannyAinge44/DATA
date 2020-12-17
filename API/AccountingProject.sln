@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30626.31
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{79DFB032-D140-45D9-9259-E4040A0721AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{C5EC2137-18E2-44FB-9213-4FADA5D599A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{3042B978-AA49-48F7-B618-7F1A15EA804E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79DFB032-D140-45D9-9259-E4040A0721AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79DFB032-D140-45D9-9259-E4040A0721AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79DFB032-D140-45D9-9259-E4040A0721AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79DFB032-D140-45D9-9259-E4040A0721AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5EC2137-18E2-44FB-9213-4FADA5D599A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5EC2137-18E2-44FB-9213-4FADA5D599A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5EC2137-18E2-44FB-9213-4FADA5D599A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5EC2137-18E2-44FB-9213-4FADA5D599A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3042B978-AA49-48F7-B618-7F1A15EA804E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3042B978-AA49-48F7-B618-7F1A15EA804E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3042B978-AA49-48F7-B618-7F1A15EA804E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3042B978-AA49-48F7-B618-7F1A15EA804E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D3A8B05-8250-47E4-A3F2-3939D44FC799}
+	EndGlobalSection
+EndGlobal

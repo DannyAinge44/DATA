@@ -1,0 +1,41 @@
+=====================================================
+- ls-companies: Shows the list of companies which exist on the database. Takes no input parameters.
+
+Example: ls-companies
+
+
+– mk-company [Company Name]: Creates a new company in the database. Takes one parameter. 
+
+Example: mk-company facebook
+
+
+– balance [Company Name]: Shows the balance sheet of a company, based on the parameter. If the parameter is not a valid/recognized company name, an error message will be displayed (despite the 200 return code). 
+
+Example: balance ubs
+
+
+– pl-statement [Company Name]: Shows the statement of profit or loss of a company, based on the parameter. If the parameter is not a valid/recognized company name, an error message will be displayed (despite the 200 return code). 
+
+Example: pl-statement google
+
+
+– history [Limit]: Shows the history of previous bookings. The Limit parameter can be a valid integer, limiting the number of previous bookings shown. If no parameter is given, will display all previous bookings
+
+Example: history 5
+
+
+– book [Company Name, #From, #To, Amount]: Creates a booking between two accounts in the database. 
+Parameters:	
+* Company Name: Must be a valid company name, specifying the balance sheet to be modified. 
+* #From: Must be a valid account number, specifing the "from" account. 
+* #To: Must be a valid account number, specifing the "to" account. 
+* Amount: The amount to be transferred between the selected accounts.
+
+Example: book hsg 14 28 342.50
+
+
+– info: 	Displays the readme.txt 
+– help: 	Displays the help.txt 
+– clear: 	Clears the previous output
+– quit: 	Quits the application. 
+=====================================================
